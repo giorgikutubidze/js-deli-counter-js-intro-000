@@ -15,7 +15,7 @@ function currentLine(array){
   }
   let i = 0;
   while(i < array.length){
-    array[i] = 'The line is currently: ' + (i + 1)  + '. ' + array[i] + ',';
+    array[i] = 'The line is currently: ' + (i + 1)  + '. ' + array[i];
     i++;
   }
 
