@@ -9,3 +9,10 @@ function nowServing(line){
   }
   return 'Currently serving ' + line.shift() + '.';
 }
+function currentLine(array){
+  if (array[0] === undefined ){
+    return 'The line is currently empty';
+  }
+  return 'The line is currently:'
+  
+}
