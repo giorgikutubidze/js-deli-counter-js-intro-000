@@ -18,7 +18,7 @@ function currentLine(array){
     array[i] = ' ' +  (i + 1)  + '. ' + array[i];
     i++;
   }
-let a = array.join(', ');
+let a = array.join(',');
 return 'The line is currently: ' + a;
 
 
