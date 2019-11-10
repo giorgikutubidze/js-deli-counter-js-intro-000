@@ -20,6 +20,6 @@ function currentLine(array){
   }
 let a = array.toString();
 return 'The line is currently ' + a;
- 
+
 
 }
