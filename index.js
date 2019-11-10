@@ -15,11 +15,11 @@ function currentLine(array){
   }
   let i = 0;
   while(i < array.length){
-    array[i] =  (i + 1)  + '. ' + array[i] + ',';
+    array[i] =  (i + 1)  + '. ' + array[i];
     i++;
   }
 let a = array.toString();
-return 'The line is currently ' + a;
+return 'The line is currently: ' + a;
 
 
 }
